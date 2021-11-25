@@ -1,0 +1,211 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.instaHead{
+    width: 135px;
+}
+.searchIcon{
+    width: 20px;
+    height: 20px;
+}
+.searchBar{
+    border: 0;
+}
+.searchSet{
+    display: flex;
+    width: 215px;
+    height: 30px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home{
+    width: 25px;
+    margin-left: 15px;
+}
+.instadp-small{
+    width: 25px;
+}
+.profile-bar{
+    display: flex;
+    justify-content: center;
+}
+.instadp{
+    width: 150px;
+}
+.profileTexts{
+    display: flex;
+    flex-direction: column;
+}
+.profileText1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.editProfileIcon{
+    text-decoration: none;
+    color: black;
+}
+.editProfileIcon:hover{
+    color: black;
+}
+.settingsIcon{
+    width: 25px;
+}
+.profileText2{
+    display: flex;
+    flex-direction: column;
+}
+.profileText2_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.followSmall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.postsIcon{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.PRVT1{
+    display: flex;
+    justify-content: center;
+}
+.PRVT2{
+    display: flex;
+    justify-content: space-between;
+}
+.PRVT3{
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 25px;
+}
+.post{
+    width: 390px;
+}
+.tab1{
+    display: none;
+}
+.postsButton{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.collap1{
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    height: 300px;
+}
+.collap2{
+    position: absolute;
+    right: 100px;
+    width: 450px;
+    height: 300px;
+}
+@media(max-width:1600px){
+    .editProfileDiv2{
+        display: none;
+    }
+    .profileText2_2{
+        display: none;
+    }
+    .followSmall{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .searchSet{
+        display: none;
+    }
+    .followCount{
+        display: none;
+    }
+    .instadp{
+        width: 100px;
+    }
+    .editProfileDiv{
+        display: none;
+    }
+    .editProfileDiv2{
+        display: inline-block;
+    }
+    .profileText2{
+        display: none;
+    }
+    .profileText2_2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .followSmall{
+        display: flex;
+        flex-direction: row;
+    }
+    .PRVText{
+        display: none;
+    }
+    .postsIcon{
+        width: 25px;
+        height: 25px;
+        margin-right: 25px;
+    }
+    .post{
+        width: 160px;
+    }
+    .collap1{
+        right: 10px;
+    }
+    .collap2{
+        right: 20px;
+    }
+}
+.highlight1{
+    width: 80px;
+}
+.highlights{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+.highlight2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.followCount2{
+    text-align: center;
+}
+.toggleItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.toggleIcon{
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
+}
+.toggleIcon1{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.followButton{
+    margin-left: 50px;
+    padding: 1px 3px 1px 3px
+}
