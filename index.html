@@ -12,26 +12,29 @@
 </head>
 
 <body>
-    <div class="header container-fluid border border-2">
+
+    <div class="header container-fluid border border-2 fixed-top bg-light">
         <div class="p-2">
             <img class="instaHead pe-5" src="instagramHeader.png">
         </div>
 
-            <div class="searchSet border border-2">
-                <img class="searchIcon" src="search-icon.png">
-                <input class="searchBar" type="text" placeholder="Search">
-            </div>
-        
+        <div class="searchSet border border-2">
+            <img class="searchIcon" src="search-icon.png">
+            <input class="searchBar" type="text" placeholder="Search">
+        </div>
+
         <div class="icons">
             <img class="home" src="home.png">
             <img class="home" src="send.png">
             <img class="home" src="add.png">
             <img class="home" src="compass.png">
-            <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample"><img class="home" src="like.png"></a>
-            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><img class="home rounded-circle border border-2" src="instadp.jpg"></a>
+            <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+                aria-controls="collapseExample"><img class="home" src="like.png"></a>
+            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample"><img class="home rounded-circle border border-2" src="instadp.jpg"></a>
         </div>
     </div>
-    <div class="collapse collap1" id="collapseExample">
+    <div class="collapse collap1 pt-5" id="collapseExample">
         <div class="card card-body">
             <div class="toggleItem">
                 <img class="toggleIcon" src="profileInToggle.png">
@@ -50,222 +53,244 @@
                 Switch Accounts
             </div>
         </div>
-      </div>
+    </div>
 
-      <div class="collapse collap2" id="collapseExample1">
-        <div class="card card-body">
-            <strong>Today</strong>
-            <div class="toggleItem">
-                <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
-                <strong>neymarjr&nbsp;</strong>started following you
-                <span class="text-secondary">&nbsp;18h</span>
-                <button type="button" class="btn btn-primary followButton">Follow</button>
-            </div>
-            <div class="toggleItem">
-                <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
-                <strong>neymarjr&nbsp;</strong>started following you
-                <span class="text-secondary">&nbsp;18h</span>
-                <button type="button" class="btn btn-primary followButton">Follow</button>
-            </div>
-        </div>
-      </div>
-
-    <div class="container profile-bar pt-4 pb-4">
-        <div class="profilepic pe-5 ps-5 col-lg-3">
-            <img class="instadp rounded-circle" src="instadp.jpg">
-        </div>
-        <div class="profileTexts col-lg-9">
-            <div class="profileText1">
-                <div>
-                    <h3 class="fw-light">arshid_te</h3>
+    <div class="container">
+        <div class="collapse collap2" id="collapseExample1">
+            <div class="card card-body">
+                <strong>Today</strong>
+                <div class="toggleItem">
+                    <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
+                    <strong>neymarjr&nbsp;</strong>started following you
+                    <span class="text-secondary">&nbsp;18h</span>
+                    <button type="button" class="btn btn-primary followButton">Follow</button>
                 </div>
-                <div class="editProfileDiv ps-4">
+                <div class="toggleItem">
+                    <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
+                    <strong>neymarjr&nbsp;</strong>started following you
+                    <span class="text-secondary">&nbsp;18h</span>
+                    <button type="button" class="btn btn-primary followButton">Follow</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center pt-5 pb-4">
+            <div class="pe-5 ps-5 col-lg-3">
+                <img class="instadp rounded-circle" width="150px" src="instadp.jpg">
+            </div>
+            <div class="profileTexts col-lg-9">
+                <div class="profileText1">
+                    <div>
+                        <h3 class="fw-light">arshid_te</h3>
+                    </div>
+                    <div class="editProfileDiv ps-4">
+                        <a class="editProfileIcon fw-normal border border-1 p-1 rounded" href="">Edit Profile</a>
+                    </div>
+                    <div class="settingsIconDiv ps-4">
+                        <img class="settingsIcon" src="settings.png">
+                    </div>
+                </div>
+                <div class="editProfileDiv2 ps-4">
                     <a class="editProfileIcon fw-normal border border-1 p-1 rounded" href="">Edit Profile</a>
                 </div>
-                <div class="settingsIconDiv ps-4">
-                    <img class="settingsIcon" src="settings.png">
+                <div class="profileText1 followCount">
+                    <p><strong>130</strong> posts</p>
+                    <p class="ps-5"><strong>829</strong> followers</p>
+                    <p class="ps-5"><strong>662</strong> following</p>
+                </div>
+                <div class="profileText2">
+                    <strong>Arshid TE</strong>
+                    Learn. Unlearn. Relearn
                 </div>
             </div>
-            <div class="editProfileDiv2 ps-4">
-                <a class="editProfileIcon fw-normal border border-1 p-1 rounded" href="">Edit Profile</a>
-            </div>
-            <div class="profileText1 followCount">
-                <p><strong>130</strong> posts</p>
-                <p class="ps-5"><strong>829</strong> followers</p>
-                <p class="ps-5"><strong>662</strong> following</p>
-            </div>
-            <div class="profileText2">
-                <strong>Arshid TE</strong>
-                Learn. Unlearn. Relearn
-            </div>
         </div>
-    </div>
-    <div class="container  profileText2_2">
+        <div class="profileText2_2">
             <strong>Arshid TE</strong>
             Learn. Unlearn. Relearn
-    </div>
-    <div class="container highlights">
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="1.jpg">
-            Munnar
         </div>
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="2.jpg">
-            Woods
-        </div>
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="3.jpg">
-            Happy hill
-        </div>
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="4.jpg">
-            Sea
-        </div>
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="5.jpg">
-            Tented
-        </div>
-        <div class="container col-xl-2 highlight2">
-            <img class="highlight1  border border-2 rounded-circle" src="6.jpg">
-            Nights
-        </div>
-    </div>
-    <div class="container border border-1 followSmall">
-        <div class="container followCount2">
-            <strong>130</strong>
-            <p>Posts</p>
-        </div>
-        <div class="container followCount2">
-            <strong>830</strong>
-            <p>Followers</p>
-        </div>
-        <div class="container followCount2">
-            <strong>663</strong>
-            <p>Following</p>
-        </div>
-    </div>
-    <hr">
-    <div class="container PRVT1 mt-5">
-        <div class="row PRVT2">
-            <div class="col-2 PRVT3">
-                <a onclick="showPanel(0)" class="postsButton">
-                <img class="postsIcon" src="posts.png">
-                <span class="PRVText">POSTS</span></a>
+        <div class="highlights">
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="1.jpg">
+                Munnar
             </div>
-            <div class="col-2 PRVT3">
-                <a onclick="showPanel(1)" class="postsButton">
-                <img class="postsIcon" src="reel.png">
-                <span class="PRVText">REELS</span></a>
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="2.jpg">
+                Woods
             </div>
-            <div class="col-2 PRVT3">
-                <a onclick="showPanel(2)" class="postsButton">
-                <img class="postsIcon" src="videos.png">
-                <span class="PRVText">VIDEOS</span></a>
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="3.jpg">
+                Happy hill
             </div>
-            <div class="col-2 PRVT3">
-                <a onclick="showPanel(3)" class="postsButton">
-                <img class="postsIcon" src="saved.png">
-                <span class="PRVText">SAVED</span></a>
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="4.jpg">
+                Sea
             </div>
-            <div class="col-2 PRVT3">
-                <a onclick="showPanel(4)" class="postsButton">
-                <img class="postsIcon" src="tagged.png">
-                <span class="PRVText">TAGGED</span></a>
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="5.jpg">
+                Tented
+            </div>
+            <div class="col-xl-2 highlight2">
+                <img class="highlight1  border border-2 rounded-circle" src="6.jpg">
+                Nights
             </div>
         </div>
-    </div>
-    <div class="container mt-5 tab1">
-        <div class="row">
-            <div class="col-4">
-                <img class="post" src="post1.jpg">
+        <div class="border border-1 followSmall">
+            <div class="text-center">
+                <strong>130</strong>
+                <p>Posts</p>
             </div>
-            <div class="col-4">
-                <img class="post" src="post2.jpg">
+            <div class="text-center">
+                <strong>830</strong>
+                <p>Followers</p>
             </div>
-            <div class="col-4">
-                <img class="post" src="post3.jpg">
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-4">
-                <img class="post" src="post1.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="post2.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="post3.jpg">
+            <div class="text-center">
+                <strong>663</strong>
+                <p>Following</p>
             </div>
         </div>
-    </div>
+        <hr">
+            <div class="PRVT1 mt-5">
+                <div class="row PRVT2">
+                    <div class="col-2 PRVT3">
+                        <a onclick="showPanel(0)" class="postsButton">
+                            <img class="postsIcon" src="posts.png">
+                            <span class="PRVText">POSTS</span></a>
+                    </div>
+                    <div class="col-2 PRVT3">
+                        <a onclick="showPanel(1)" class="postsButton">
+                            <img class="postsIcon" src="reel.png">
+                            <span class="PRVText">REELS</span></a>
+                    </div>
+                    <div class="col-2 PRVT3">
+                        <a onclick="showPanel(2)" class="postsButton">
+                            <img class="postsIcon" src="videos.png">
+                            <span class="PRVText">VIDEOS</span></a>
+                    </div>
+                    <div class="col-2 PRVT3">
+                        <a onclick="showPanel(3)" class="postsButton">
+                            <img class="postsIcon" src="saved.png">
+                            <span class="PRVText">SAVED</span></a>
+                    </div>
+                    <div class="col-2 PRVT3">
+                        <a onclick="showPanel(4)" class="postsButton">
+                            <img class="postsIcon" src="tagged.png">
+                            <span class="PRVText">TAGGED</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="post" src="post1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post3.jpg">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-4">
+                        <img class="post" src="post1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post3.jpg">
+                    </div>
+                </div>
+            </div>
 
-    <div class="container mt-5 tab1">
-        <div class="row">
-            <div class="col-4">
-                <img class="post" src="Reel1.jpg">
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="post" src="Reel1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="Reel2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="Reel3.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <img class="post" src="Reel2.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="Reel3.jpg">
-            </div>
-        </div>
-    </div>
 
-    <div class="container mt-5 tab1">
-        <div class="row">
-            <div class="col-4">
-                <img class="post" src="video1.png">
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="post" src="video1.png">
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container mt-5 tab1">
-        <div class="row">
-            <div class="col-4">
-                <img class="post" src="post1.jpg">
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="post" src="post1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post3.jpg">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-4">
+                        <img class="post" src="post1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="post3.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <img class="post" src="post2.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="post3.jpg">
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-4">
-                <img class="post" src="post1.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="post2.jpg">
-            </div>
-            <div class="col-4">
-                <img class="post" src="post3.jpg">
-            </div>
-        </div>
-    </div>
 
-    <div class="container mt-5 tab1">
-        <div class="row">
-            <div class="col-4">
-                <img class="post" src="Tagged1.png">
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="post" src="Tagged1.png">
+                    </div>
+                    <div class="col-4">
+                        <img class="post" src="Tagged2.png">
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <img class="post" src="Tagged2.png">
             </div>
-        </div>
-    </div>
 
-
-    <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="script.js"></script>
+            <div class="container d-flex justify-content-center">
+            <div class="row  pt-3 ">
+                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-12 fw-light fs-6">
+                    <div>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Meta</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">About</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Blog</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Jobs</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Help</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">API</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Privacy</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Terms</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Top Accounts</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Hashtags</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Locations</span></a>
+                    <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Instagram lite</span></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--JQuery-->
+            <script src="https://code.jquery.com/jquery-3.6.0.js"
+                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <!--Bootstrap JS-->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                crossorigin="anonymous"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
