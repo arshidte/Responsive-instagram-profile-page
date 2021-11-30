@@ -24,12 +24,12 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.home{
+/* .home{
     width: 25px;
     margin-left: 15px;
-}
+} */
 .instadp-small{
     width: 25px;
 }
@@ -49,9 +49,9 @@ body{
 .editProfileIcon:hover{
     color: black;
 }
-.settingsIcon{
+/* .settingsIcon{
     width: 25px;
-}
+} */
 .profileText2{
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ body{
 .profileText2_2{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .followSmall{
     display: flex;
@@ -69,7 +69,7 @@ body{
 .postsIcon{
     width: 15px;
     height: 15px;
-    margin-right: 15px;
+    margin-right: 0px;
 }
 .PRVT1{
     display: flex;
@@ -77,16 +77,15 @@ body{
 }
 .PRVT2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .PRVT3{
     display: flex;
-    align-items: center;
-    padding: 0 25px 0 25px;
+    justify-content: space-evenly;
 }
-.post{
+/* .post{
     width: 390px;
-}
+} */
 .tab1{
     display: none;
 }
@@ -120,18 +119,18 @@ body{
     }
 }
 @media(max-width:768px){
-    .searchSet{
+    /* .searchSet{
         display: none;
-    }
+    } */
     .followCount{
         display: none;
     }
-    .instadp{
-        width: 100px;
-    }
-    .editProfileDiv{
+    /* .instadp{
+        width: 0px;
+    } */
+    /* .editProfileDiv{
         display: none;
-    }
+    } */
     .editProfileDiv2{
         display: inline-block;
     }
@@ -141,7 +140,6 @@ body{
     .profileText2_2{
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
     }
     .followSmall{
         display: flex;

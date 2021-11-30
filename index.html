@@ -12,28 +12,26 @@
 </head>
 
 <body>
-
-    <div class="header container-fluid border border-2 fixed-top bg-light">
-        <div class="p-2">
-            <img class="instaHead pe-5" src="instagramHeader.png">
+    <div class="container">
+    <header class="header border border-2 fixed-top bg-light">
+        <div class="p-2 col-2 col-md-4 d-flex justify-content-center">
+            <img class="img-fluid" src="instagramHeader.png">
         </div>
 
-        <div class="searchSet border border-2">
+        <div class="col-md-4 col-xl-2 col-lg-3 d-none d-md-block border border-2">
             <img class="searchIcon" src="search-icon.png">
             <input class="searchBar" type="text" placeholder="Search">
         </div>
 
-        <div class="icons">
-            <img class="home" src="home.png">
-            <img class="home" src="send.png">
-            <img class="home" src="add.png">
-            <img class="home" src="compass.png">
-            <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
-                aria-controls="collapseExample"><img class="home" src="like.png"></a>
+        <div class="col-9 col-md-4 d-flex justify-content-end justify-content-lg-center icons">
+            <img class="img-fluid me-2" width="30rem" src="home.png">
+            <img class="img-fluid me-2" width="30rem" src="send.png">
+            <img class="img-fluid me-2" width="30rem" src="add.png">
+            <img class="img-fluid me-2" width="30rem" src="compass.png">
             <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                aria-controls="collapseExample"><img class="home rounded-circle border border-2" src="instadp.jpg"></a>
+                aria-controls="collapseExample"><img class="home rounded-circle border border-2  ms-2" width="30rem" src="instadp.jpg"></a>
         </div>
-    </div>
+    </header>
     <div class="collapse collap1 pt-5" id="collapseExample">
         <div class="card card-body">
             <div class="toggleItem">
@@ -55,43 +53,24 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="collapse collap2" id="collapseExample1">
-            <div class="card card-body">
-                <strong>Today</strong>
-                <div class="toggleItem">
-                    <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
-                    <strong>neymarjr&nbsp;</strong>started following you
-                    <span class="text-secondary">&nbsp;18h</span>
-                    <button type="button" class="btn btn-primary followButton">Follow</button>
-                </div>
-                <div class="toggleItem">
-                    <img class="toggleIcon1 rounded-circle" src="neymarjs.jpg">
-                    <strong>neymarjr&nbsp;</strong>started following you
-                    <span class="text-secondary">&nbsp;18h</span>
-                    <button type="button" class="btn btn-primary followButton">Follow</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center pt-5 pb-4">
-            <div class="pe-5 ps-5 col-lg-3">
-                <img class="instadp rounded-circle" width="150px" src="instadp.jpg">
+        <div class="d-flex pb-4" style="padding-top: 3.5rem;">
+            <div class="col-lg-3 d-flex justify-content-lg-end">
+                <img class="instadp rounded-circle" width="150rem" src="instadp.jpg">
             </div>
             <div class="profileTexts col-lg-9">
-                <div class="profileText1">
-                    <div>
+                <div class="row profileText1 d-flex justify-content-between justify-content-md-start">
+                    <div class="col-4 col-lg-2 col-xl-2">
                         <h3 class="fw-light">arshid_te</h3>
                     </div>
-                    <div class="editProfileDiv ps-4">
+                    <div class="editProfileDiv ps-4 d-none d-md-block col-4 col-lg-3 col-xl-2">
                         <a class="editProfileIcon fw-normal border border-1 p-1 rounded" href="">Edit Profile</a>
                     </div>
-                    <div class="settingsIconDiv ps-4">
-                        <img class="settingsIcon" src="settings.png">
+                    <div class="col-3 col-lg-1 col-xl-1">
+                        <img class="settingsIcon" width="23rem" src="settings.png">
                     </div>
                 </div>
-                <div class="editProfileDiv2 ps-4">
-                    <a class="editProfileIcon fw-normal border border-1 p-1 rounded" href="">Edit Profile</a>
+                <div class="editProfileDiv2">
+                    <a class="editProfileIcon fw-normal border border-1 rounded" href="">Edit Profile</a>
                 </div>
                 <div class="profileText1 followCount">
                     <p><strong>130</strong> posts</p>
@@ -110,27 +89,27 @@
         </div>
         <div class="highlights">
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="1.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="1.jpg">
                 Munnar
             </div>
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="2.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="2.jpg">
                 Woods
             </div>
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="3.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="3.jpg">
                 Happy hill
             </div>
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="4.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="4.jpg">
                 Sea
             </div>
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="5.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="5.jpg">
                 Tented
             </div>
             <div class="col-xl-2 highlight2">
-                <img class="highlight1  border border-2 rounded-circle" src="6.jpg">
+                <img class="highlight1 border border-2 rounded-circle" src="6.jpg">
                 Nights
             </div>
         </div>
@@ -153,7 +132,7 @@
                 <div class="row PRVT2">
                     <div class="col-2 PRVT3">
                         <a onclick="showPanel(0)" class="postsButton">
-                            <img class="postsIcon" src="posts.png">
+                            <img class="postsIcon d-flex justify-content-evenly" src="posts.png">
                             <span class="PRVText">POSTS</span></a>
                     </div>
                     <div class="col-2 PRVT3">
@@ -181,38 +160,24 @@
             <div class="mt-5 tab1">
                 <div class="row">
                     <div class="col-4">
-                        <img class="post" src="post1.jpg">
+                        <img class="img-fluid" width="400rem" src="post1.jpg">
                     </div>
                     <div class="col-4">
-                        <img class="post" src="post2.jpg">
+                        <img class="img-fluid" width="400rem" src="post2.jpg">
                     </div>
                     <div class="col-4">
-                        <img class="post" src="post3.jpg">
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-4">
-                        <img class="post" src="post1.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post2.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post3.jpg">
+                        <img class="img-fluid" width="400rem" src="post3.jpg">
                     </div>
                 </div>
-            </div>
-
-            <div class="mt-5 tab1">
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-4">
-                        <img class="post" src="Reel1.jpg">
+                        <img class="img-fluid" width="400rem" src="post1.jpg">
                     </div>
                     <div class="col-4">
-                        <img class="post" src="Reel2.jpg">
+                        <img class="img-fluid" width="400rem" src="post2.jpg">
                     </div>
                     <div class="col-4">
-                        <img class="post" src="Reel3.jpg">
+                        <img class="img-fluid" width="400rem" src="post3.jpg">
                     </div>
                 </div>
             </div>
@@ -220,7 +185,13 @@
             <div class="mt-5 tab1">
                 <div class="row">
                     <div class="col-4">
-                        <img class="post" src="video1.png">
+                        <img class="img-fluid" width="400rem" src="Reel1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="Reel2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="Reel3.jpg">
                     </div>
                 </div>
             </div>
@@ -228,24 +199,7 @@
             <div class="mt-5 tab1">
                 <div class="row">
                     <div class="col-4">
-                        <img class="post" src="post1.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post2.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post3.jpg">
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-4">
-                        <img class="post" src="post1.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post2.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="post" src="post3.jpg">
+                        <img class="img-fluid" width="400rem" src="video1.png">
                     </div>
                 </div>
             </div>
@@ -253,10 +207,35 @@
             <div class="mt-5 tab1">
                 <div class="row">
                     <div class="col-4">
-                        <img class="post" src="Tagged1.png">
+                        <img class="img-fluid" width="400rem" src="post1.jpg">
                     </div>
                     <div class="col-4">
-                        <img class="post" src="Tagged2.png">
+                        <img class="img-fluid" width="400rem" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="post3.jpg">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="post1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="post2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="post3.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 tab1">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="Tagged1.png">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="400rem" src="Tagged2.png">
                     </div>
                 </div>
             </div>
@@ -279,8 +258,8 @@
                     <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Locations</span></a>
                     <a style="text-decoration: none;" href=""><span class="pe-4 text-secondary">Instagram lite</span></a>
                     </div>
-                    
                 </div>
+            </div>
             </div>
             <!--JQuery-->
             <script src="https://code.jquery.com/jquery-3.6.0.js"
